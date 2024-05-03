@@ -1,0 +1,82 @@
+/*:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    
+    --purple: rgb(238 210 255);
+     --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08); 
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);    
+}
+.button{
+  border-radius: 4rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem 0.9rem 1.5rem;
+  background: #fdc50f;
+
+
+}
+.button:hover{
+  color: black;
+  cursor: pointer;
+  background: rgb(21, 166, 30);
+  border:1px solid #fdc50f
+ */
+  
+ :root
+[data-theme="light"]
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --purple: rgb(238 210 255);
+    --bg:white;
+}
+[data-theme="dark"]{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --purple: red;
+    --bg:black;
+}
+
+
+.App{
+  
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);  
+    background-color:var(--bg) ;  
+}
+.button{
+  border-radius: 4rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem 0.9rem 1.5rem;
+  background: #fdc50f;
+
+}
+.button:hover{
+  color: black;
+  cursor: pointer;
+  background: var(--purple);
+  border:1px solid #fdc50f
+}
+  
+
+  
+
+  

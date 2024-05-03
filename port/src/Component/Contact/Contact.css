@@ -1,0 +1,52 @@
+.ch{
+  position: relative;
+  left:34rem;
+  font-size: 3rem;
+  align-items: center;
+}
+.container_c{
+  margin-top: 5rem;
+  text-align: center;
+}
+.contact_form{
+  max-width: 40rem;
+  margin: auto;
+}
+.contact_inputs{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+position: relative;
+    bottom: 3rem;
+}
+.c-button{
+  height: 4rem;
+  width: 10rem;
+  font-size: 2rem;
+  position: relative;
+  left: 16rem;
+}
+.input-i{
+  height: 2rem;
+  
+  
+}
+.message{
+  font-size: 2rem;
+}
+.label-l{
+  padding: 1rem;
+  position: relative;
+  right: 16.5rem;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.label-m{
+  position: relative;
+  right: 18rem;
+  top: 1rem;
+  display: flex;
+  flex-direction: column;
+}

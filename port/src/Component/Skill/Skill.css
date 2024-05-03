@@ -1,0 +1,120 @@
+
+ .container{
+  width: 80%;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  padding-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.skill_title h2{
+
+  font-size: 2rem;
+    line-height: 0.5;
+    color: black;
+    text-align: center;
+    position: relative;
+    padding: 2rem;
+    bottom: 15rem;
+    left: -10rem;
+    background: rgb(141, 231, 157);
+    height: 1rem;
+    border-radius: 3rem;
+    width: 121%;
+}
+
+.skill-section{
+  padding: 7.43rem 0.25rem;
+  background-color: rgb(222, 227, 212);
+  position: relative;
+}
+.skill-section .skill_items{
+  margin-top: -24rem;
+  
+
+}
+.skill_container li{
+  list-style: none;
+  font-weight: bolder;
+  margin: 3rem 2rem;
+  position: relative;
+  text-transform: uppercase;
+  bottom: -7rem;
+}
+.skill_container li::before{
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 50%;
+  background-color: rgb(188, 182, 238);
+  bottom: -1.5rem;
+  border-radius: 4rem;
+}
+.skill_container li::after{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 50%;
+  background-color: rgb(32, 17, 173);
+  bottom: -1.5rem;
+  left: 0;
+  border-radius: 4rem;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+.skill_container li.html::after{
+  animation-name: html;
+}
+@keyframes html{
+  to{
+    width: 40%;
+  }
+}
+.skill_container li.css::after{
+  animation-name: css;
+}
+@keyframes css{
+  to{
+    width: 35%;
+  }
+}
+
+.skill_container li.javascript::after{
+  animation-name: javascript;
+}
+@keyframes javascript{
+  to{
+    width: 30%;
+  }
+}
+
+.skill_container li.react::after{
+  animation-name: react;
+}
+@keyframes react{
+  to{
+    width: 27%;
+  }
+}
+
+.skill_container li.data_structure::after{
+  animation-name: data_structure;
+}
+@keyframes data_structure{
+  to{
+    width: 30%;
+  }
+}
+.skill_container li.java::after{
+  animation-name: java;
+}
+@keyframes java{
+  to{
+    width: 40%;
+  }
+}

@@ -1,0 +1,16 @@
+.p-container{
+  
+  color: red;
+  text-align: center;
+  background-color: aqua;
+}
+.pp{
+height: 10rem;
+font-size: 4rem;
+position: relative;
+bottom: -2rem;
+}
+video{
+  height: 30rem;
+  width: 50rem;
+}
